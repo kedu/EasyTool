@@ -900,6 +900,17 @@
                                     <action selector="commitAction:" target="XfG-lQ-9wD" id="bgf-Yy-gON"/>
                                 </connections>
                             </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PEA-f3-Z4l">
+                                <rect key="frame" x="446" y="554" width="196" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="清空" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="jKD-pf-AQB">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" size="13" name=".PingFangSC-Regular"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="clearAction:" target="XfG-lQ-9wD" id="SZH-19-A7F"/>
+                                </connections>
+                            </button>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="68C-A5-Ib2">
                                 <rect key="frame" x="446" y="447" width="199" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -962,15 +973,15 @@
                                     <action selector="becomeSampleTwoAction:" target="XfG-lQ-9wD" id="Ara-3M-UEK"/>
                                 </connections>
                             </button>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PEA-f3-Z4l">
-                                <rect key="frame" x="446" y="554" width="196" height="32"/>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="znq-mN-BgE">
+                                <rect key="frame" x="705" y="630" width="80" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="清空" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="jKD-pf-AQB">
+                                <buttonCell key="cell" type="push" title="去循环" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ysu-9A-nrO">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" size="13" name=".PingFangSC-Regular"/>
                                 </buttonCell>
                                 <connections>
-                                    <action selector="clearAction:" target="XfG-lQ-9wD" id="SZH-19-A7F"/>
+                                    <action selector="gotoForAction:" target="XfG-lQ-9wD" id="BWg-co-LhN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -998,7 +1009,7 @@
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="422" y="1011"/>
+            <point key="canvasLocation" x="-44" y="1048"/>
         </scene>
     </scenes>
 </document>

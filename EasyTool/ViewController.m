@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "ForVC.h"
+
 
 @interface ViewController()
 
@@ -80,6 +82,10 @@
     
     _UITextfieldNum.cell.formatter    = formater;
   
+    //再加个懒加载,设置属性,布局.
+    
+    
+    
     
 
 }
@@ -451,6 +457,22 @@
 
 
 
+/**
+ 去循环控制器
+
+ @param sender 按钮
+ */
+- (IBAction)gotoForAction:(id)sender {
+    
+    
+
+    
+    [self presentViewControllerAsModalWindow:[ForVC new]];
+    
+}
+
+
+
 - (void)viewWillAppear {
     [super viewWillAppear];
     
@@ -494,6 +516,10 @@
 
     // Update the view, if already loaded.
 }
+
+
+
+
 
 
 
