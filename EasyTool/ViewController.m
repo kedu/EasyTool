@@ -129,7 +129,7 @@
         <# viewName  #>.backgroundColor = [UIColor colorWithHex:<# 16color #>];\r\n";
         
         
-        NSLog(@"%@",viewStr);
+//        NSLog(@"%@",viewStr);
         
 //        NSLocalizedStringFromTableInBundle(<#key#>, <#tbl#>, <#bundle#>, <#comment#>)
 //         NSLocalizedStringFromTable(<#key#>, <#tbl#>, <#comment#>)
